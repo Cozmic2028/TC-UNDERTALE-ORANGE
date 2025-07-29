@@ -1,0 +1,1 @@
+text="* ...{pause}{clear}* HOW THE HELL...{pause}{clear}* WHERE ARE YOU?!{pause}{clear}* I-I mean...{pause}{clear}* Something, something, BRAVERY.{pause}{end}"

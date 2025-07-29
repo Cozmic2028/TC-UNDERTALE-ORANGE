@@ -1,0 +1,1 @@
+text="* (WARNING!){pause}{clear}* (BRIDGE COULD FALL APART.){pause}{clear}* (Not sure when,{sleep 10} tho.){pause}{clear}* (So,{sleep 10} good luck.){pause}{end}";

@@ -1,0 +1,1 @@
+text="* what{pause}{clear}* THIS IS LITERALLY A VOID.{pause}{clear}* HOW DOES WATERFALL LEAD TO A&  FUCKING...{pause}{clear}* ... Whatever.&* You're filled with BRAVERY.{pause}{end}"

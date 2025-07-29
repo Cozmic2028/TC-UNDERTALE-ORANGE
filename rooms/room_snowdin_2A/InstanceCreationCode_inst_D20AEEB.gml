@@ -1,0 +1,1 @@
+text= "* An item of sorts...&* At least, it should be.{pause}{end}"

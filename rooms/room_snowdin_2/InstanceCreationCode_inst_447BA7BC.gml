@@ -1,0 +1,1 @@
+text="* A crossroad in the path.{pause}{clear}* Most would be apprehensive.{pause}{clear}* But you?{pause}{clear}* You're filled with BRAVERY.{pause}{end}"

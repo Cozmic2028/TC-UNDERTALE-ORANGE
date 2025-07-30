@@ -1,1 +1,1 @@
-landmark_id= 2;
+landmark_id= 1;

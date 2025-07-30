@@ -44,6 +44,7 @@ function Macro_Flag() {
 		BUTTON,
 		LEVER,
 		ROCK,
+		SLITHERS_IN_PARTY,
 	};
 #endregion
 

@@ -20,15 +20,10 @@ _moveable_encounter=true;
 _moveable_box=true;
 
 follow_delay = 14
+follower = [char_follower_0]
 
-if room == room_snowdin_4 {
-	follower = [char_follower_0]
-}
-else{
-	follower = [char_follower]
-}
 //follower = []
-inst_follower = [noone]
+inst_follower = [char_follower_0]
 if(array_length(follower) > 0){
         moves = ds_list_create()
         repeat(follow_delay*array_length(follower)){

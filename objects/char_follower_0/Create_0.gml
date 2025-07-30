@@ -1,4 +1,3 @@
-
 event_inherited();
 
 char_id=100;

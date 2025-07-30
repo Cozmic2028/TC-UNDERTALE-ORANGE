@@ -1,1 +1,1 @@
-text= "* An item of sorts...&* At least, it should be.{pause}{end}"
+text= "* An item of sorts...{sleep 5}&* At least, it should be.{pause}{clear}* Replace this sign with one!{pause}{end}"

@@ -1,14 +1,17 @@
 cutscene_player_move(cutscene, false);
 
 cutscene_dialogue(cutscene, [
-"{face 3}{voice 2}* Hiya,{sleep 5} Human!",
+"{voice 2}* Hiya,{sleep 5} Human!",
 ]);
 
-cutscene_wait(cutscene, 30);
-cutscene_char_move(cutscene, char_slithers_follower, DIR.LEFT, 150);
+cutscene_char_move(cutscene, char_follower_0, DIR.LEFT, 150);
 
 cutscene_dialogue(cutscene, [
-"{face 3}{voice 2}* I'm ur fren now!"
+"{face 1}{voice 2}* I'm ur fren now!",
+"{face 2}{voice 2}* Let's go!",
 ]);
+
+cutscene_char_move(cutscene, char_follower_0, DIR.RIGHT, 90);
+cutscene_char_move(cutscene, char_follower_0, DIR.DOWN, 80);
 
 cutscene_player_move(cutscene, true);

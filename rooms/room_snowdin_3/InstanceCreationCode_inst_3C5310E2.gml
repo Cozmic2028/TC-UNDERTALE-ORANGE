@@ -1,0 +1,1 @@
+text= "* There's nothing written.{pause}{clear}* Either somebody forgot to&  write something, or they&  have no arms.{pause}{end}"

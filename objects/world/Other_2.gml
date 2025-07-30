@@ -46,4 +46,4 @@ show_debug_message("Game Version: "+GAME_VERSION);
 
 //show_debug_overlay(true);
 
-room_goto(room_snowdin_3);
+room_goto(room_intro);

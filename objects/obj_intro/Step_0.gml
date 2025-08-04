@@ -84,6 +84,14 @@ t.text=text6
 }
 
 }
+else if image_index=7{
+	if timer=1{
+		if !instance_exists(t)
+t=instance_create_depth(60,150,-2000,text_typer)
+t.text=text7
+}
+
+}
 
 else if image_index=8{
 	check=true

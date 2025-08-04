@@ -14,13 +14,14 @@ text6=spd+"Легенды гласят,{sleep 5} что те,{sleep 15}&кто �
 	
 
 }else*/{
-text=spd+"It's been a few years&since the war between&HUMANS and MONSTERS.";
-text1=spd+"The monster king,{sleep 15} broken,{sleep 20}&has made a decision...";
-text2=spd+"Any human to fall down&into the UNDERGROUND.{sleep 25}.{sleep 30}.";
+text=spd+"Long ago, Humans sealed&the race of monsters&underground with a magic&spell.";
+text1=spd+"The monster king, although&peacefull, eventually&waged war...";
+text2=spd+"And declared any human&to fall down.{sleep 5}.{sleep 10}.";
 text3=spd+"Will die.";
 text4=spd+"Present Day.{sleep 40}.{sleep 45}.";
 text5=spd+"MT.EBOTT";
 text6=spd+"Rumors have risen that&those who climb this&mountain never return.";	
+text7=spd+"And on this very day,&another human seals&their fate.";
 	
 }
 
@@ -35,6 +36,7 @@ t3=noone
 t4=noone
 t5=noone
 t6=noone
+t7=noone
 image_speed=0
 
 BGM_Play(2,bgm_intro,false,14.50);

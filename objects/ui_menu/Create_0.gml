@@ -7,6 +7,13 @@ if(instance_exists(char_player)){
 	_top=false;
 }
 
+if(instance_exists(char_player_slithers_follower)){
+	_top=(char_player_slithers_follower.y-camera.y>130+char_player_slithers_follower.sprite_height);
+	char_player_slithers_follower._moveable_menu=false;
+}else{
+	_top=false;
+}
+
 _menu=0;
 _choice=0;
 _choice_item=0;

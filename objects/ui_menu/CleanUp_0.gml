@@ -29,3 +29,6 @@ if(instance_exists(_inst_phone)){
 if(instance_exists(char_player)){
 	char_player._moveable_menu=true;
 }
+if(instance_exists(char_player_slithers_follower)){
+	char_player_slithers_follower._moveable_menu=true;
+}

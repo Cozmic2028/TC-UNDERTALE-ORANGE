@@ -10,6 +10,10 @@ res_move_sprite[DIR.UP]=spr_char_frisk_up;
 res_move_sprite[DIR.DOWN]=spr_char_frisk_down;
 res_move_sprite[DIR.LEFT]=spr_char_frisk_right;
 res_move_sprite[DIR.RIGHT]=spr_char_frisk_right;
+res_run_sprite[DIR.UP]=spr_odin_up_run;
+res_run_sprite[DIR.DOWN]=spr_odin_down_run;
+res_run_sprite[DIR.LEFT]=spr_odin_right_run;
+res_run_sprite[DIR.RIGHT]=spr_odin_right_run;
 
 moveable=true;
 _moveable_dialog=true;

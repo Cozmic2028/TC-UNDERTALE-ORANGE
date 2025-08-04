@@ -93,7 +93,13 @@ repeat(4){
 
 var refresh=((dir!=_dir_previous || talking!=_talking_previous || (move[dir]>0)!=(_move_previous>0)) && !res_override);
 if(refresh){
-	if(move[DIR.UP]>0 || move[DIR.DOWN]>0 || move[DIR.LEFT]>0 || move[DIR.RIGHT]>0){
+	if(run = 1&&(move[0] > 0||move[90] > 0||move[180] > 0||move[270] > 0)){
+		sprite_index=res_run_sprite[dir];
+		image_index=res_run_image[dir];
+		image_speed=res_run_speed[dir];
+		image_xscale*=((res_run_flip_x[dir]&&sign(image_xscale)==1)||(!res_run_flip_x[dir]&&sign(image_xscale)==-1) ? -1 : 1);
+        sprite_index = res_run_sprite[dir];
+	}else if(move[DIR.UP]>0 || move[DIR.DOWN]>0 || move[DIR.LEFT]>0 || move[DIR.RIGHT]>0){
 		sprite_index=res_move_sprite[dir];
 		image_index=res_move_image[dir];
 		image_speed=res_move_speed[dir];

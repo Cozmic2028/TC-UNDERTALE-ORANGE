@@ -3,8 +3,8 @@ event_inherited();
 char_id=100;
 
 
-image_xscale=1.3
-image_yscale=1.3
+image_xscale=1
+image_yscale=1
 
 idle_sprite = [spr_slithers_up,spr_slithers_down,spr_slithers_left,spr_slithers_left]
 move_sprite = [spr_slithers_up,spr_slithers_down,spr_slithers_left,spr_slithers_left]

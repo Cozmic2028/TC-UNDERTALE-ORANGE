@@ -37,7 +37,7 @@ application_surface_draw_enable(false);
 
 //Border_SetEnabled(true);
 
-show_debug_message("UNDERTALE by Toby Fox");
+show_debug_message("TC!UNDERTALE ORANGE by Cozmo the Silly");
 show_debug_message("UNDERTALE Engine by TML");
 show_debug_message("Engine Version: "+ENGINE_VERSION);
 show_debug_message("Game Name: "+GAME_NAME);

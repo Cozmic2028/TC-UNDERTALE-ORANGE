@@ -80,7 +80,12 @@ function cutscene_choice(cut, dialogue, options, response) {
 }
 
 function cutscene_player_move(cut, can_move) {
+	if instance_exists(char_player){
 	cutscene_func(cut, function(can_move) {char_player.moveable = can_move}, can_move);
+	}
+	if instance_exists(char_player_slithers_follower){
+	cutscene_func(cut, function(can_move) {char_player_slithers_follower.moveable = can_move}, can_move);
+	}
 }
 
 

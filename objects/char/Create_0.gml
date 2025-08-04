@@ -14,6 +14,10 @@ move[DIR.UP]=0;
 move[DIR.DOWN]=0;
 move[DIR.LEFT]=0;
 move[DIR.RIGHT]=0;
+run[DIR.UP]=0;
+run[DIR.DOWN]=0;
+run[DIR.LEFT]=0;
+run[DIR.RIGHT]=0;
 
 collision=true;
 
@@ -30,6 +34,11 @@ repeat(4){
 	res_move_image[proc]=1;
 	res_move_speed[proc]=1/3;
 	res_move_flip_x[proc]=(proc==DIR.LEFT ? true : false);
+	
+	res_run_sprite[proc]=(sprite_exists(sprite_index) ? sprite_index : spr_default);
+	res_run_image[proc]=1;
+	res_run_speed[proc]=1/3;
+	res_run_flip_x[proc]=(proc==DIR.LEFT ? true : false);
 	
 	res_talk_sprite[proc]=(sprite_exists(sprite_index) ? sprite_index : spr_default);
 	res_talk_image[proc]=1;

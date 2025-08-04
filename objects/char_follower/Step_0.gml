@@ -3,11 +3,11 @@ if(run = 1&&(move[0] > 0||move[90] > 0||move[180] > 0||move[270] > 0)){
         move_speed[DIR.DOWN]=3;
         move_speed[DIR.LEFT]=3;
         move_speed[DIR.RIGHT]=3;
-        res_move_sprite[DIR.UP]=run_sprite[0];
-        res_move_sprite[DIR.DOWN]=run_sprite[1];
-        res_move_sprite[DIR.LEFT]=run_sprite[2];
-        res_move_sprite[DIR.RIGHT]=run_sprite[3];
-        sprite_index = res_move_sprite[dir];
+        res_run_sprite[DIR.UP]=run_sprite[0];
+        res_run_sprite[DIR.DOWN]=run_sprite[1];
+        res_run_sprite[DIR.LEFT]=run_sprite[2];
+        res_run_sprite[DIR.RIGHT]=run_sprite[3];
+        sprite_index = res_run_sprite[dir];
 }else{
         move_speed[DIR.UP]=1.5;
         move_speed[DIR.DOWN]=1.5;

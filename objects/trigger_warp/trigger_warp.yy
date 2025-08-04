@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trigger",
-    "path":"sprites/spr_trigger/spr_trigger.yy",
+    "name":"spr_trigger_warp",
+    "path":"sprites/spr_trigger_warp/spr_trigger_warp.yy",
   },
   "spriteMaskId":null,
   "visible":false,

@@ -20,3 +20,6 @@ if(instance_exists(_inst_return)){
 if(instance_exists(char_player)){
 	char_player._moveable_save=true;
 }
+if(instance_exists(char_player_slithers_follower)){
+	char_player_slithers_follower._moveable_save=true;
+}

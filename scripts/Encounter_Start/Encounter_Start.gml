@@ -15,6 +15,8 @@ function Encounter_Start() {
 	if(Encounter_IsExists(ENCOUNTER)){
 		if(!instance_exists(char_player)){
 			ANIM=false;
+		} else if(!instance_exists(char_player_slithers_follower)){
+			ANIM=false;
 		}
 		if(!ANIM){
 			if(Encounter_IsPauseBGM(ENCOUNTER)){

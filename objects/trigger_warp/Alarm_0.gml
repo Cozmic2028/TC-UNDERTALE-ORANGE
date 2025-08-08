@@ -7,6 +7,14 @@ if(instance_exists(char_player)){
 		pdir=player_dir;
 	}
 	Flag_Set(FLAG_TYPE.TEMP,FLAG_TEMP.TRIGGER_WARP_DIR,pdir);
+}else if(instance_exists(char_player_slithers_follower)){
+	var pdir=DIR.DOWN;
+	if(player_dir==-1){
+		pdir=char_player_slithers_follower.dir;
+	}else{
+		pdir=player_dir;
+	}
+	Flag_Set(FLAG_TYPE.TEMP,FLAG_TEMP.TRIGGER_WARP_DIR,pdir);
 }
 if(bgm_fade){
 	BGM_Stop(0);

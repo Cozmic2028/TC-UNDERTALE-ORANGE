@@ -1,0 +1,1 @@
+text="* The friendly snake has&  joined you!{pause}{clear}* No adventure is worth&  going through alone, after&  all!{pause}{clear}* Your BRAVERY shines within&  the both of you!{pause}{end}"

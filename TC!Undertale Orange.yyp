@@ -667,6 +667,7 @@
     {"id":{"name":"spr_battle_ui_hp","path":"sprites/spr_battle_ui_hp/spr_battle_ui_hp.yy",},},
     {"id":{"name":"spr_battle_ui_kr","path":"sprites/spr_battle_ui_kr/spr_battle_ui_kr.yy",},},
     {"id":{"name":"spr_bg_area_1","path":"sprites/spr_bg_area_1/spr_bg_area_1.yy",},},
+    {"id":{"name":"spr_bg_area_2","path":"sprites/spr_bg_area_2/spr_bg_area_2.yy",},},
     {"id":{"name":"spr_block_corner","path":"sprites/spr_block_corner/spr_block_corner.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_border_simple","path":"sprites/spr_border_simple/spr_border_simple.yy",},},

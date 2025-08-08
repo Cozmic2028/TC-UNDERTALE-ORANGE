@@ -532,6 +532,7 @@
     {"name":"spr_battle_ui_hp","order":1,"path":"sprites/spr_battle_ui_hp/spr_battle_ui_hp.yy",},
     {"name":"spr_battle_ui_kr","order":3,"path":"sprites/spr_battle_ui_kr/spr_battle_ui_kr.yy",},
     {"name":"spr_bg_area_1","order":1,"path":"sprites/spr_bg_area_1/spr_bg_area_1.yy",},
+    {"name":"spr_bg_area_2","order":2,"path":"sprites/spr_bg_area_2/spr_bg_area_2.yy",},
     {"name":"spr_block_corner","order":11,"path":"sprites/spr_block_corner/spr_block_corner.yy",},
     {"name":"spr_block","order":9,"path":"sprites/spr_block/spr_block.yy",},
     {"name":"spr_border_simple","order":1,"path":"sprites/spr_border_simple/spr_border_simple.yy",},

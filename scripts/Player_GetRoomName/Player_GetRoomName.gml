@@ -20,6 +20,9 @@ function Player_GetRoomName() {
 		case room_snowdin_2:
             name = "Snowdin - Crossroad";
 			break;
+		case room_snowdin_4:
+            name = "Snowdin - Along the trees";
+			break;
     }
     return name;
 
